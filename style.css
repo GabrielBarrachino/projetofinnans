@@ -1,0 +1,315 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+/*Início da navbar e logo*/
+
+li, a, button{
+    color: #5e4503;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    background: #FFC107;
+    height: 80px;
+}
+
+.logo{
+    margin-right: auto;
+    cursor: pointer;
+    width: 142px;
+    margin-top: 0;
+}
+
+
+nav ul {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+nav li{
+    padding-top: 1px;
+}
+
+nav ul li a{
+    transition: all .3s;
+    padding-bottom: 5px;
+}
+
+nav ul li a:hover{
+    border-bottom: 3px solid #fff;
+    color: #000000;
+}
+
+button{
+    margin-left: 15px;
+    color: #fff;
+    padding: 10px;
+    background-color: #FFC107;
+    border: 1px solid #fff;
+    border-radius: 7px;
+    transition: all .5s;
+}
+
+button:hover{
+    background: #fff;
+    color: #5e4503;
+}
+
+.botao-e{
+    margin-top: 40px;
+    margin-left: -15px;
+    
+}
+
+/*Fim da navbar e logo*/
+
+/*Primeira secão*/
+.section-1{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;   
+}
+
+.fundo{
+    background: #FFC107;
+}
+
+.img-mulher{
+    width: 426px;
+    height: 518px;
+}
+
+.intro-text h3{
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+.intro-text p{
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(240, 240, 240);
+    margin: 13px 0 10px 0;
+    color: #5e4503;
+}
+
+.introducao{
+    margin-bottom: 110px;
+}
+
+.cadastro .email{
+    margin-top: 20px;
+    font-size: 15px;
+    padding: 15px 200px 15px 10px;
+    border: 1px solid #DFDFDF;
+    border-radius: 7px 0 0px 7px;
+}
+
+.cadastro .botao{
+    background: #0069D9;
+    font-size: 15px;
+    margin-left: -7px;
+    padding: 15px 17px 15px 17px;
+    border-radius: 0 7px 7px 0;
+    border: none;
+}
+
+.botao:hover{
+    background: #035cbb;
+    color: #fff;
+}
+
+
+.duvidas{
+    color: #5e4503;
+    margin-top: 25px;
+    cursor: pointer;
+    display: inline-flex;
+}
+
+.duvidas:hover{
+    color: #fff;
+}
+/*Fim da primeira secão*/
+
+.borda{
+    border-bottom: 1px solid #c5c3bd; 
+}
+
+.section-2{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;      
+}
+
+.img-saiba{
+    display: flex;
+    width: 475px;
+    height: 360px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.text-linha-2 h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.text-linha-2 p{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.botao-veja button{
+    background: #0069D9;
+    margin-left: -5px;
+    padding: 13px 13px 13px 13px;
+    border-radius: 7px 7px 7px 7px;
+    border: none;
+}
+
+.botao-hover:hover{
+    background: #035cbb;
+    color: #fff;
+}
+
+.introducao-2{
+    margin-right: 37px;
+}
+
+
+
+
+.section-3{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;   
+}
+
+.img-juros{
+    margin: 66px 80px 0 0;
+    margin-bottom: 50px;
+}
+
+.text-linha-3 h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.text-linha-3 p{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+
+
+.section-4{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;   
+    margin-bottom: 60px;   
+}
+
+.img-facil{
+    display: flex;
+    width: 340px;
+    height: 232px;
+    margin-top: 80px;
+    margin-bottom: 0;
+}
+
+.coluna-1, .coluna-2, .coluna-3{
+    margin: 10px 15px 10px 20px;
+}
+
+.section-4 h3{
+    font-size: 1.5rem;
+    margin-top: 4px;
+    color: #000;
+    font-family: 'Noto Serif', serif;
+}
+
+.section-4 p{
+    margin-top: 8px;
+    font-size: 0.9rem;
+    line-height: 20px;
+    color: #000;
+}
+
+.img-eco{
+    display: flex;
+    width: 380px;
+    height: 232px;
+    margin-top: 80px;
+    margin-bottom: 0;
+}
+
+.img-suporte{
+    display: flex;
+    width: 380px;
+    height: 232px;
+    margin-top: 80px;
+    margin-bottom: 0;
+}
+
+
+.container-col{
+    margin-left: -50px;
+    border-bottom: 1px solid #c5c3bd;
+}
+
+
+
+footer{      
+    padding: 20px 0 25px 100px;
+    background: #FFC107;
+}
+
+.menu-footer ul{
+    list-style: none;
+    display: inline-block;
+}
+
+.menu-footer ul li{    
+    padding: 15px 15px 15px 0;
+}
+
+
+.menu-footer ul li a{    
+    color: #5e4503;
+    font-size: 15px;
+    transition: all .3s;
+    padding-bottom: 5px;
+}
+
+
+.menu-footer ul li a:hover{    
+    border-bottom: 3px solid #fff;
+    color: #000000;
+}
+
+
+.copy{
+    float: right;
+    margin-right: 20px;
+    font-size: 10px;
+}
